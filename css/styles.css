@@ -1,0 +1,10 @@
+
+/* header */
+
+.site-header.inicio{
+  background-image: url("../img/header.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 600px;
+}
