@@ -1,4 +1,17 @@
 
+/* GLOBALES */
+.contenedor{
+  max-width: 1200px;
+  margin: 0 auto; 
+  /* esto es lo mismo que esto:
+      margin-left: auto;
+      margin-right: auto; 
+      
+      o esto:
+      margin: 0 auto 0 auto;*/
+}
+
+
 /* header */
 
 .site-header.inicio{
@@ -7,4 +20,23 @@
   background-size: cover;
   height: 100vh;
   min-height: 600px;
+}
+
+.barra{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px
+}
+
+/* Navegación */
+.navegacion a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.navegacion a:last-of-type{
+  margin: 0;
 }
