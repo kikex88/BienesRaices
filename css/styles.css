@@ -5,17 +5,18 @@ html{
 body{
   font-family: 'Lato', sans-serif;
   font-size: 1.6rem;
+  line-height: 2;
 }
 
 
 /* GLOBALES */
 .contenedor{
   max-width: 120rem; /* equivale a 1200px */
-  margin: 0 auto; 
+  margin: 0 auto;
   /* esto es lo mismo que esto:
       margin-left: auto;
-      margin-right: auto; 
-      
+      margin-right: auto;
+
       o esto:
       margin: 0 auto 0 auto;*/
 }
@@ -34,6 +35,20 @@ h3{
 
 h4{
   font-size: 2.6rem;
+}
+
+/** Utilidades **/
+.seccion{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.fw-300{
+  font-weight: 300;
+}
+
+.centrar-texto{
+  text-align: center;
 }
 
 /* header */
@@ -58,7 +73,7 @@ h4{
   padding-bottom: 2rem;
   max-width: 60rem;
   line-height: 2;
-  
+
 }
 
 .barra{
@@ -82,4 +97,18 @@ h4{
 
 .navegacion a:last-of-type{
   margin: 0;
+}
+
+/* iconos-nosotros */
+.iconos-nosotros{
+  display: flex;
+  justify-content: space-between;
+}
+.icono{
+  flex-basis: calc(33.3% - 1rem);
+  text-align: center;
+}
+
+.icono h3{
+  text-transform: uppercase;
 }
