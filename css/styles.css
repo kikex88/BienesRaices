@@ -1,5 +1,9 @@
 html{
+  box-sizing: border-box;
   font-size: 62.5%; /* Reset para REMS - 62.5% = 10px de 16px */
+}
+*, *:before, *:after{
+  box-sizing: inherit;
 }
 
 body{
@@ -55,7 +59,31 @@ h4{
   text-align: center;
 }
 
-/* header */
+.d-block{
+  display: block!important;
+}
+
+/** Botones **/
+.boton{
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+  margin-top: 3rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.boton-amarillo{
+  background-color: #E08709;
+}
+
+.boton-verde{
+  background-color: #71B100;
+}
+
+/** header **/
 
 .site-header.inicio{
   background-image: url("../img/header.jpg");
@@ -135,4 +163,14 @@ h4{
 
 .contenido-anuncio h3, .contenido-anuncio p{
   margin: 0;
+}
+
+.precio{
+  color: #71B100;
+  font-weight: 700;
+}
+
+.ver-todas{
+  display: flex;
+  justify-content: flex-end;
 }
