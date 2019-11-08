@@ -170,7 +170,40 @@ h4{
   font-weight: 700;
 }
 
+.iconos-caracteristicas{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.iconos-caracteristicas li{
+  display: flex;
+}
+.iconos-caracteristicas li img{
+  margin-right: 2rem;
+}
+
 .ver-todas{
   display: flex;
   justify-content: flex-end;
+}
+
+/* Contacto Home */
+.imagen-contacto{
+  background-image: url("../img/encuentra.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+}
+
+.contenido-contacto{
+  flex: 1; /* Es como un factor de crecimiento, detecta cuantos pixeles hay y los divide por el numero de elementos 
+              asignando a cada elemento el valor de la división */
+  color: #ffffff;
+}
+
+.contenido-contacto p{
+  font-size: 1.8rem;
 }
