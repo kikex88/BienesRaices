@@ -4,10 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nosotros</title>
+    <title>Bienes Raices</title>
+
+    <!-- fuentes -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <!-- hoja de estilo -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Nosotros</h1>
-    <a href="index.html">Atras</a>
+    <header class="site-header">
+        <!-- div con la clase contenedor -->
+        <div class="contenedor contenido-header">
+            <!-- div con clase barra -->
+            <div class="barra">
+                <!-- hacemos que el apretar el logo nos direcciones a la pagina oficial -->
+                <a href="/">
+                    <img src="img/logo.svg" alt="Logotipo de Bienes y Raices">
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h1 class="fw-300 centrar-texto">Conoce Sobre Nosotros</h1>
+
+        <div class="contenido-nosotros">
+            <div class="imagen">
+                <img src="img/nosotros.jpg" alt="imagen sobre nosotros">
+            </div>
+            <div class="texto-nosotros">
+                <blockquote>25 Años de Experiencia</blockquote>
+
+                
+
+                <p>
+                    Nunc vehicula, diam vitae aliquet feugiat, massa sapien rutrum enim, eget porta urna nisi vel dolor. Etiam facilisis quam et lobortis vulputate. Cras vitae maximus sem, vel convallis mauris. Praesent at nisl non turpis congue cursus. Sed imperdiet orci metus, et rhoncus dolor cursus id. Maecenas viverra interdum consectetur. Morbi erat mauris, lacinia ut elit et, elementum consectetur libero.
+                </p>
+
+                <p>
+                    Suspendisse pharetra sit amet metus sed consequat. Integer elementum turpis sed lorem posuere ornare. Curabitur purus odio, vehicula dictum auctor quis, laoreet eu odio. Donec lacinia orci ac sodales lacinia. Pellentesque accumsan lacus magna, ac convallis risus lobortis vel. Praesent lectus dui, tempus eget faucibus nec, auctor eu felis. Vestibulum interdum blandit viverra. Duis et facilisis nisl. Nullam id mattis diam, sed semper mauris. Quisque sit amet metus eu justo tristique porta.
+                </p>
+
+            </div>
+        </div>
+    </main>
+
+    <section class="contenedor seccion">
+            <h2 class="fw-300 centrar-texto">Más Sobre Nosotros</h2>
+            <div class="iconos-nosotros">
+              <div class="icono">
+                  <img src="img/icono1.svg" alt="Icono segurirdad">
+                  <h3>Seguridad</h3>
+                  <p>Laudantium illo, assumenda quam laborum perferendis harum animi enim impedit nam expedita corporis dolorum amet, accusamus deserunt veritatis rem dolores aliquam. Quia!</p>
+              </div>
+    
+              <div class="icono">
+                  <img src="img/icono2.svg" alt="Icono Mejor Precio">
+                  <h3>El Mejor Precio</h3>
+                  <p>Laudantium illo, assumenda quam laborum perferendis harum animi enim impedit nam expedita corporis dolorum amet, accusamus deserunt veritatis rem dolores aliquam. Quia!</p>
+              </div>
+    
+              <div class="icono">
+                  <img src="img/icono3.svg" alt="Icono a Tiempo">
+                  <h3>A Tiempo</h3>
+                  <p>Laudantium illo, assumenda quam laborum perferendis harum animi enim impedit nam expedita corporis dolorum amet, accusamus deserunt veritatis rem dolores aliquam. Quia!</p>
+              </div>
+            </div>
+        </section>
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="nosotros.html">Nosotros</a>
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+
+            <p class="copyright">Todos los derechos reservados &copy;</p>
+        </div>
+    </footer>
 </body>
 </html>
