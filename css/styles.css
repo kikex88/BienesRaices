@@ -309,3 +309,9 @@ h4{
        grid-template-columns: 50% 50%; o grid-template-columns: 1fr 1fr;*/
   grid-column-gap: 2rem;
 }
+.texto-nosotros blockquote{
+  font-weight: 900;
+  font-size: 2rem;
+  margin: 0;
+  padding: 1rem 0 3rem 0;
+}
