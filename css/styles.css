@@ -335,3 +335,8 @@ h4{
   justify-content: space-between;/* alinea horizontalmente */
   align-items: center;/* Alinea verticalmente */
 }
+
+/* Contacto */
+label{
+  display: block;
+}
