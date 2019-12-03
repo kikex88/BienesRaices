@@ -340,3 +340,34 @@ h4{
 label{
   display: block;
 }
+/* input con selector de atributo --- input[atributo] */
+/* al separar con la coma se aplica a ambos tipos de input los estilos */
+/* input[type="text"],
+input[type="email"]{
+  padding: 1rem;
+  display: block;
+  width: 100%;
+  background-color: #e1e1e1;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 1rem;
+} */
+/* para nuestro caso usaremos input:not([atributo]) para aplicar a todos los input el estilo menos al o los que indicamos */
+input:not([type="submit"]),
+textarea,
+select{
+  padding: 1rem;
+  display: block;
+  width: 100%;
+  background-color: #e1e1e1;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 1rem;
+}
+select{
+  -webkit-appearance: none;
+  appearance: none;
+}
+textarea{
+  height: 20rem;
+}
